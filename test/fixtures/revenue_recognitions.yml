@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 9.99
+  recognized_on: 2020-01-27
+
+two:
+  amount: 9.99
+  recognized_on: 2020-01-27

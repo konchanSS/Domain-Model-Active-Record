@@ -1,0 +1,2 @@
+class RevenueRecognition < ApplicationRecord
+end
