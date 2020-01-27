@@ -12,3 +12,6 @@ stop:
 	docker-compose stop
 down:
 	docker-compose down
+
+mysql:
+	docker-compose exec db bash -c 'MYSQL_PWD=password mysql -u root'
