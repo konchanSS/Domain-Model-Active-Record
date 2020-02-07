@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20200127071729) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "revenue_recognitions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "revenue_recognitions", id: false, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.decimal "amount", precision: 10, null: false
     t.bigint "contracts_id", null: false
     t.date "recognized_on", null: false
